@@ -1,0 +1,107 @@
+.content {
+    font-family: Arial;
+    height:740px;
+}
+
+
+.logo {
+    display: block;
+    margin: 135px auto 25px;
+    width: 300px;
+    height: 95px;
+}
+
+.searchbar {
+    display: block;
+    margin: 0 auto;
+    border: solid 1px rgba(211,211,211,0.8);
+    width: 550px;
+    height: 40px;
+    padding: 1px 15px;
+    font-size: 18px;
+    box-shadow: 0 1px 1px rgba(190,190,190,0.8);
+}
+
+.searchbar:hover{
+    box-shadow: 0 2px 2px rgba(144,144,144,0.5);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.search{
+    display: inline-block;
+    margin: 25px 8px;
+    height: 35px;
+    min-width: 100px;
+    font-weight: bold;
+    color: rgb(150,150,150);
+    padding: 0px 10px;
+    background-color: rgb(234,234,234);
+    border: solid 1px;
+    border-color: rgb(211,211,211,.0);
+    border-radius: 2px;
+}
+
+.search:hover{
+    color: rgb(50,50,50);
+    border-color: rgba(211,211,211);
+    background-color: rgba(241,241,241,1.0);
+    box-shadow: 0px 2px 2px rgba(241,241,241,1.0);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(50,50,50);
+}
+.l-navbar{
+    padding: 0px 0px 0px 20px;
+}
+
+.r-navbar{
+    padding: 0px 10px 0px 0px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: rgba(144,144,144)
+}
+
+.squares{
+    width:20px;
+    height: 20px;
+}
+
+.default-user{
+    width: 25px;
+    height: 25px;
+}
+
+.bell{
+    width: 22px;
+    height: 22px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: rgba(110,110,110);
+    border-top: solid 1px rgb(220,220,220);
+    background-color: rgba(241,241,241)
+}
